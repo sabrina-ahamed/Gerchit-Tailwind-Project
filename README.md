@@ -1,1 +1,1 @@
-# This is my Locla Repo
+# Tailwind CSS project.
