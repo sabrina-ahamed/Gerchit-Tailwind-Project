@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Blog</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts -->
+  </head>
+  <body
+    class="bg-[url('../src/images/body_bg.jpg')] bg-center bg-cover bg-no-repeat"
+  >
+    <nav>
+      <div
+        class="max-w-[1680px] flex flex-row items-center justify-between py-8 mx-auto"
+      >
+        <a href="index.html">
+          <img class="w-[199px]" src="images/logo.png" alt="images/logo.png" />
+        </a>
+        <ul class="flex flex-row gap-x-8">
+          <li>
+            <a href="index.html" class="leading-[175%] text-white">Home</a>
+          </li>
+          <li>
+            <a href="Services.html" class="leading-[175%] text-white">Pages</a>
+          </li>
+          <li>
+            <a href="Contact.html" class="leading-[175%] text-white">Contact Us</a>
+          </li>
+          <li>
+            <a href="blog.html" class="leading-[175%] text-white">Blog</a>
+          </li>
+          <li>
+            <a href="index.html" class="leading-[175%] text-white">Landing</a>
+          </li>
+        </ul>
+        <div class="book flex flex-row items-center gap-x-[50px]">
+          <a href="#" class="font-semibold leading-[175%] text-white"
+            >Log In / Registration</a
+          >
+          <img
+            class="h-[57px]"
+            src="images/Vector5.png"
+            alt="images/Vector5.png"
+          />
+          <a href="#" class="font-semibold leading-[175%] text-white"
+            >Book Table</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section
+      id="hero"
+      class="relative z-[1] bg-[url('../src/images/bloghero_bg.png')] bg-cover bg-no-repeat bg-center after:bg-[#0c0c0c66] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:z-[-1]"
+    >
+      <div
+        class="hero_container py-[254px] max-w-[1920px] mx-auto text-center flex flex-col gap-y-6"
+      >
+        <h2
+          class="font-cormorant_upright font-bold text-[90px] leading-[130%] tracking-[4%] text-[#DCCA87]"
+        >
+          Our Blogs
+        </h2>
+        <div
+          class="font-cormorant_upright font-bold text-[23px] leading-[130%] tracking-[4%] text-white flex justify-center items-center gap-x-2"
+        >
+          <p>Home</p>
+          <i class="fa-solid fa-angle-right text-[#DCCA87] w-6"></i>
+          <p>Our Blogs- Single Column</p>
+        </div>
+      </div>
+    </section>
+    <section id="main">
+      <div
+        class="blog_container flex justify-between mx-auto max-w-[1300px] py-[152px]"
+      >
+        <div class="max-w-[856px] flex flex-col gap-y-16">
+          <a href="blogdetail.html" class="box">
+            <div class="border border-transparent hover:border hover:border-[#DCCA87] box flex flex-col gap-y-8">
+              
+            <img src="images/blog1_full.png" alt="images/blog1_full.png" />
+            <div href="#" class="text flex flex-col gap-y-8">
+              <div
+                class="date text-[#FAFAFA] leading-[175%] tracking-[4%] flex justify-between"
+              >
+                <p>16 Apr 2021</p>
+                <p>- Annalisa L</p>
+              </div>
+              <h3
+                class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87] hover:underline"
+              >
+                tips for prepping and caring for your grill
+              </h3>
+              <p class="text-[#AAAAAA] leading-[175%] tracking-[4%]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                in....
+              </p>
+              <h4
+                class="font-cormorant_upright font-bold leading-[175%] tracking-[4%] text-[#DCCA87]"
+              >
+                Read More
+              </h4>
+            </div>
+            </div>
+          </a>
+          <a href="#" class="box ">
+            <div class="border border-transparent hover:border hover:border-[#DCCA87] box flex flex-col gap-y-8">
+              
+            <img src="images/blog2_full.png" alt="images/blog2_full.png" />
+            <div class="text flex flex-col gap-y-8 ">
+              <div
+                class="date text-[#FAFAFA] leading-[175%] tracking-[4%] flex justify-between"
+              >
+                <p>23 May 2021</p>
+                <p>-John Micheal</p>
+              </div>
+              <h3
+                class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87] hover:underline"
+              >
+                summer cocktails and mocktails
+              </h3>
+              <p class="text-[#AAAAAA] leading-[175%] tracking-[4%]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                in....
+              </p>
+              <h4
+                class="font-cormorant_upright font-bold leading-[175%] tracking-[4%] text-[#DCCA87]"
+              >
+                Read More
+              </h4>
+            </div>
+            </div>
+          </a>
+          <div class="text-center">
+            <button
+              class="font-cormorant_upright font-bold leading-[175%] tracking-[4%] text-[#0c0c0c] bg-[#DCCA87] py-2 px-8"
+            >
+              View More
+            </button>
+          </div>
+        </div>
+        <div class="w-[375px] flex flex-col gap-y-8">
+          <div class="flex flex-col gap-y-6 p-8 bg-[#242424]">
+            <h2
+              class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87]"
+            >
+              Search Page
+            </h2>
+            <div
+              class="flex justify-between items-center border-b border-[#AAAAAA66]"
+            >
+              <input
+                type="search"
+                placeholder="Example"
+                class="search_input font-cormorant_upright font-bold leading-[175%] tracking-[4%] text-[#AAAAAA] placeholder:leading-[175%] placeholder:tracking-[4%] bg-transparent outline-none"
+              />
+              <i class="fa-solid fa-magnifying-glass text-white"></i>
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-8 p-8 bg-[#242424]">
+            <h2
+              class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87]"
+            >
+              All Categories
+            </h2>
+            <div
+              class="leading-[175%] tracking-[4%] text-[#AAAAAA] flex flex-col gap-y-8"
+            >
+              <div class="flex justify-between items-center">
+                <p>Photography</p>
+                <div class="h-[1px] w-[159px] bg-[#FAFAFA]"></div>
+                <p>(1)</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="w-[100px]">Baking</p>
+                <div class="h-[1px] w-[159px] bg-[#FAFAFA]"></div>
+                <p>(2)</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <p>Cooking Tips</p>
+                <div class="h-[1px] w-[159px] bg-[#FAFAFA]"></div>
+                <p>(6)</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 bg-[#242424]">
+            <a href="#" class="flex flex-col gap-y-8 w-full">
+              <h2
+                class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87]"
+              >
+                Our Latest Posts
+              </h2>
+              <img src="images/blog2.png" alt="images/blog2.png" />
+              <div class="text flex flex-col gap-y-8">
+                <div
+                  class="date text-[#FAFAFA] leading-[175%] tracking-[4%] flex justify-between"
+                >
+                  <p>23 May 2021</p>
+                  <p>-John Micheal</p>
+                </div>
+                <h3
+                  class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87] hover:underline"
+                >
+                  summer cocktails and mocktails
+                </h3>
+                <p class="text-[#AAAAAA] leading-[175%] tracking-[4%]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                </p>
+                <h4
+                  class="font-cormorant_upright font-bold leading-[175%] tracking-[4%] text-[#DCCA87]"
+                >
+                  Read More
+                </h4>
+              </div>
+            </a>
+          </div>
+          <div class="flex flex-col gap-y-8 p-8 bg-[#242424]">
+            <h2
+              class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87]"
+            >
+              Related Tags
+            </h2>
+            <div
+              class="leading-[175%] tracking-[4%] text-[#AAAAAA] flex flex-col gap-y-4"
+            >
+              <div class="flex items-center gap-x-2">
+                <a href="#">Grilling</a>
+                <i class="fa-solid fa-minus text-[#DCCA87]"></i>
+                <a href="#">Cooking</a>
+                <i class="fa-solid fa-minus text-[#DCCA87]"></i>
+                <a href="#">Baking</a>
+              </div>
+              <div class="flex items-center gap-x-2">
+                <a href="#">Cuisines</a>
+                <i class="fa-solid fa-minus text-[#DCCA87]"></i>
+                <a href="#">Chef</a>
+                <i class="fa-solid fa-minus text-[#DCCA87]"></i>
+                <a href="#">Alcohol Mixing</a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-8 p-8 bg-[#242424]">
+            <h2
+              class="font-cormorant_upright text-[32px] leading-[130%] tracking-[4%] text-[#DCCA87]"
+            >
+              Share
+            </h2>
+            <div class="icon text-[#F5EFDB] text-2xl">
+              <i class="fa-brands fa-facebook-f text-[#DCCA87]"></i>
+              <i class="fa-brands fa-twitter px-4"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="bg-[url('../src/images/bg.png')] relative z-[1] after:w-full after:h-full after:absolute after:bg-[#04040480] after:z-[-1] after:top-0 after:left-0 mt-[221px]"
+    >
+      <div
+        class="newsletter_container absolute z-10 -translate-y-1/2 left-1/2 -translate-x-1/2"
+      >
+        <div
+          class="box_shadow text-center mx-auto w-[1300px] flex flex-col py-16 gap-y-6 px-[262px] bg-black"
+        >
+          <div>
+            <p
+              class="font-cormorant_upright font-bold text-[23px] leading-[130%] tracking-[4%] text-[#FFFFFF]"
+            >
+              Newsletter
+            </p>
+            <img
+              class="mx-auto py-2"
+              src="images/about_right_spoon.png"
+              alt="images/about_right_spoon.png"
+            />
+            <h2
+              class="font-cormorant_upright font-semibold text-[64px] leading-[130%] tracking-[3%] text-[#DCCA87]"
+            >
+              Subscribe to Our Newsletter
+            </h2>
+          </div>
+          <div>
+            <p class="leading-[175%] tracking-[4%] text-[#AAAAAA]">
+              And never miss latest Updates!
+            </p>
+          </div>
+          <div class="input mx-auto flex gap-x-8 mt-16">
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="py-4 pl-5 w-[635px] placeholder:text-[#AAAAAA]placeholder:font-semibold placeholder:leading-[175%] placeholder:tracking-[4%] bg-transparent border border-[#F5EFDB] text-[#AAAAAA]"
+            />
+            <button
+              class="py-2 px-8 font-bold font-cormorant_upright leading-[175%] tracking-[4%] text-[#0C0C0C] bg-[#DCCA87] hover:bg-[#dec671ac]"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer_container mx-auto pt-[172px] pb-32 max-w-[1870px]">
+        <div
+          class="flex flex-col justify-center gap-y-16 mx-auto pt-[177px] max-w-[1300px]"
+        >
+          <div
+            class="absolute top-0 right-0 translate-y-[173px] -translate-x-[95px]"
+          >
+            <img
+              class="mx-auto"
+              src="images/top_line.png"
+              alt="images/top_line.png"
+            />
+            <h2
+              class="font-cormorant_upright font-font-bold leading-[175%] tracking-[4%] text-[#DCCA87]"
+            >
+              TOP
+            </h2>
+          </div>
+          <div class="flex justify-between items-center">
+            <ul class="text-center leading-[175%] tracking-[4%] text-[#AAAAAA]">
+              <h3 class="font-sans text-[32px] leading-[130%] text-[#F5EFDB]">
+                Contact Us
+              </h3>
+              <li class="pb-2 pt-6">
+                <a href="#">9 W 53rd St, New York, NY 10019, USA</a>
+              </li>
+              <li><a href="#">+1 212-555-1230</a></li>
+              <li><a href="#">+1 212-344-1230</a></li>
+            </ul>
+            <div>
+              <img
+                class="mx-auto"
+                src="images/footer_logo.png"
+                alt="images/footer_logo.png"
+              />
+              <div class="pt-[52px]">
+                <p
+                  class="text-center leading-[175%] tracking-[4%] text-[#FFFFFF] w-[438px] mx-auto"
+                >
+                  "The best way to find yourself is to lose yourself in the
+                  service of others.”
+                </p>
+                <img
+                  class="mx-auto py-4"
+                  src="images/about_right_spoon.png"
+                  alt=""
+                />
+                <div class="icon text-[#F5EFDB] text-2xl text-center">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter px-4"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="text-center leading-[175%] tracking-[4%] text-[#AAAAAA]">
+              <h3 class="font-sans text-[32px] leading-[130%] text-[#F5EFDB]">
+                Working Hours
+              </h3>
+              <li class="pt-6"><a href="#">Monday-Friday:</a></li>
+              <li class="pb-2"><a href="#">08:00 am -12:00 am</a></li>
+              <li><a href="#">Saturday-Sunday:</a></li>
+              <li><a href="#">07:00am -11:00 pm</a></li>
+            </ul>
+          </div>
+          <div>
+            <p
+              class="py-4 leading-[175%] tracking-[4%] text-[#AAAAAA] text-center"
+            >
+              2021 Geriźcht. All Rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
